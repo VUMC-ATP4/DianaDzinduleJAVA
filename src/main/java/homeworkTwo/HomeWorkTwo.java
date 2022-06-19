@@ -104,23 +104,19 @@ public class HomeWorkTwo {
         }
         System.out.println("4. uzdevums");
 
-         //   String krasa;
-         //   switch (krasa) {
-          //      case "sarkana":
-          //          result = "domestic animal";
-          //          break;
-          //      case "dzeltena":
-          //          result = "domestic animal";
-           //         break;
-           //     case "zaļa":
-           //         result = "wild animal";
-           //         break;
-           //     default:
-           //         result = "unknown animal";
-            //        break;
-           // }
-           // return result;
-        //}
+        String krasa;
+        System.out.println("Ievadi kādu no luksofora krāsām - zaļa, oranža vai sarkana (ar mazo burtu)!");
+        krasa = scanner.next();
+
+        if (krasa.equals("zaļa")) {
+            System.out.println("Tu vari šķērsot ielu!");
+        } else if (krasa.equals("oranža")){
+            System.out.println("Sagatavojies, neuzsāc kustību vai ātri pabeidz iesākto!");
+        } else if (krasa.equals("sarkana") ) {
+                System.out.println("Stop! Nešķērso ielu, gaidi zaļo gaismu");
+        } else {
+            System.out.println("Luksoforam ir tikai trīs krāsas: zaļa, oranža vai sarkana, ja redzi ko citu, Tev jādodas pie acu ārsta!");
+        }
        // krasa.equals("Zaļa"); //false
        // krasa.equals("Zila"); //true
 
