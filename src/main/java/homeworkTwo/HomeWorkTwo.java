@@ -157,7 +157,7 @@ public class HomeWorkTwo {
 
         double average = average(pirmaisDecimalskaitlis,otraisDecimalskaitlis,tresaisDecimalskaitlis);
 
-        System.out.println("Ievadīto skaitļu vidēja vērtība: " + average);
+        System.out.println("Ievadīto decimālskaitļu vidēja vērtība: " + average);
 
     }
     public static void printBusinessCard(){
